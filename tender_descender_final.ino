@@ -38,7 +38,7 @@ void setup()
     delay(1000);
   }
 
-  /* Initialise the sensor */
+  /* Initialise the accelerometer */
   if(!accel.begin())
   {
     /* There was a problem detecting the ADXL345 ... check your connections */
