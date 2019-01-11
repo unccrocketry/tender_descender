@@ -2,8 +2,6 @@
 //UNCC Rocketry 2018-2019
 //This program uses a Teensy 3.2 and a DFRobot 10DOF IMU.
 
-
-
 /*The height is zeroed/tared on power. 
   Once takeoff is detected the program updates the maximum altitude read.
   Once altitude is decreasing, the program sets the "apogee" bit to "true"
