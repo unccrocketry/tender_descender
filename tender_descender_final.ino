@@ -100,7 +100,7 @@ void loop()
 
   if (apogee==true)
   {
-    /* As the rocket is descending, if an altitude of less than 20ft is observed, and the magnitude acceleration is greater than 20ft
+    /* As the rocket is descending, if an altitude of less than 20ft is observed, and the magnitude acceleration is greater than 20
     the two e-matches and the led pins on-board the Teensy 3.2 are set to HIGH. */
     if ((alt < 20) && (acc_mag > 20))
     {
