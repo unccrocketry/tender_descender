@@ -25,7 +25,6 @@ int e1 = 23;
 int e2 = 22;
 int led = 13;
 
-
 elapsedMillis time_elapsed;
 
 double xacc;
@@ -34,7 +33,7 @@ double zacc;
 
 void setup()
 {
- 
+ /* Initialise the barometer */
   while (!bmp.begin()) {  
     delay(1000);
   }
