@@ -15,4 +15,4 @@ Tender Descender Repository
     - On descent, if the altitude surpasses the threshold height, the program begins to look for sudden changes in the magnitude of the   acceleration (all three axes)
     - If threshold altitude is surpassed on descent, and an acceleration impulse is detected, both e-matches (e1 and e2), as well as the Teensy's on-board LED are set to HIGH.
 
-`tender_descender_libs.zip` : All relevant/required libraries for the Arduino/Teensy IDE to work with the given hardware/sensors.
+- `tender_descender_libs.zip` : All relevant/required libraries for the Arduino/Teensy IDE to work with the given hardware/sensors.
