@@ -1,6 +1,7 @@
 //Tender Descender Code
 //UNCC Rocketry 2018-2019
 //This program uses a Teensy 3.2 and a DFRobot 10DOF IMU.
+//Last Updated: Feb. 09 2019
 
 /*The height is zeroed/tared on power. 
   Once takeoff is detected the program updates the maximum altitude read.
